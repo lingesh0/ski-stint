@@ -1,0 +1,37 @@
+.custom-card {
+    max-width: 600px;
+    margin: 0 auto; /* Center the card horizontally */
+  }
+  
+  .font-weight-bold {
+    font-weight: bold;
+  }
+  .custom-card {
+    margin-bottom: 20px; /* Optional: Adjust spacing between cards */
+  }
+  
+  .custom-card .card-header {
+    background-color: #007bff; /* Optional: Example of header background color */
+    color: white; /* Optional: Example of header text color */
+    font-weight: bold; /* Optional: Example of bold header text */
+  }
+  
+ 
+
+/* Aligning text to the right within the card bodies */
+.card-body {
+    text-align: left; /* Aligns text inside card body to left */
+  }
+  
+  .form-group {
+    text-align: left; /* Aligns text inside form group to right */
+  }
+  
+  /* Specific alignment for form labels */
+  .form-group label {
+    display: inline-block;
+    width: 120px; /* Adjust width as needed */
+    text-align: left;
+    margin-left: 10px; /* Add right margin for spacing */
+  }
+  
